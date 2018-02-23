@@ -1,6 +1,6 @@
 function main(){
 	var params = parseParams();
-	if(params == {}){
+	if(params.length == null){
 		var info = document.createElement("p");
 		info.innerHTML = "You need glossary terms! ";
 		var a = document.createElement("a");
